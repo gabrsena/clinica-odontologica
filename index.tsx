@@ -234,15 +234,15 @@ const Hero = () => {
         >
           <div className="aspect-[4/5] rounded-[60px] sm:rounded-[100px] overflow-hidden shadow-2xl border-[8px] lg:border-[12px] border-white relative z-10">
             <img 
-              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200" 
-              alt="Edifício Premium em Sorocaba" 
+              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=1200" 
+              alt="Consultório médico moderno, bem iluminado e profissional" 
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
             <div className="absolute bottom-10 left-10 right-10 text-white">
               <div className="flex items-center space-x-2">
-                <MapPin size={18} className="text-champagne" />
-                <span className="text-xs sm:text-sm uppercase tracking-[0.2em] font-bold">Business Center • Sorocaba</span>
+                <ShieldCheck size={18} className="text-champagne" />
+                <span className="text-xs sm:text-sm uppercase tracking-[0.2em] font-bold">Inovação & Profissionalismo • Sorocaba</span>
               </div>
             </div>
           </div>
